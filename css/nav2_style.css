@@ -1,0 +1,24 @@
+[id = "nav2"]
+{
+  background: green;
+  width:calc(20% - 20px);
+  height: 100%;
+}
+
+[id = "nav2"] ul
+{
+  background: white;
+}
+
+[id = "nav2"] li
+{
+  background: purple;
+}
+
+#nav2::after{
+    content: "1";
+    font-size: 68em;
+    vertical-align: super;
+    border-radius: .5em;
+    background-color: lightyellow;
+}

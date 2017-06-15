@@ -1,0 +1,10 @@
+table
+{
+  border: none;
+  background: blue;
+}
+
+table:first-child
+{
+  color: purple;
+}
